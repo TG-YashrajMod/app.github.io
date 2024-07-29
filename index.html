@@ -1,0 +1,391 @@
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+<title>YASHRAJMOD</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/37fVLxB/f4027915ec9335046755d489a14472f2.png">
+<meta name="robots" content="noindex">
+     <style>   *{
+
+        font-family: 'Ubuntu', sans-serif;
+         }
+ .box1 {
+
+         display: inline-block;
+         border:2px solid black;
+         text-align:center;
+         align-items:center;
+         margin:10px;
+         background-color:#FDEBD0;
+         border-radius:1.5rem;
+         text-align:center;
+         margin-left:-.7rem;
+         margin-right:.8rem;
+
+         }
+         
+         .container {Width:100%;
+margin-left:.6rem;}
+
+         .box1:hover{
+             background-color: #92DCA1;
+			 border-color:white;
+			 border:4px solid white;
+         }
+
+         body {
+                       text-align:center;
+         align-items:center;
+         background-image:url("https://te.legra.ph/file/7c7e248e2e7271a9ad839.jpg");
+         }
+
+         .box1 a {
+
+         text-decoration: none;
+         color: black;
+         line-height:10px ;
+         background-color:red;
+         }
+
+         input:focus{
+
+         transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+                    border-color:red;
+         }
+
+         h1 {
+
+         font-family:: Georgia, 'Times New Roman', Times, serif;
+         }
+
+         #brand{
+
+         text-decoration:none;
+         color: white;
+         }
+
+         select{
+             text-align: center;
+         width:40%;
+         height:38px;
+         border: 1.5px solid yellow;
+            border-radius:1rem;margin-left:-1.2rem;
+         }
+
+         option{
+                 line-height:35px ;
+                 border: 1px solid black;
+                 border-radius:1.5rem;
+                 font-size:18px;
+
+         }
+         
+         .dropdown {margin-left:-1.4rem;
+         }
+
+           input{
+
+         width:40%;
+         height:38px;
+         border: 1.5px solid yellow;
+         text-align: center;
+            border-radius:1rem;
+            font-size:18px;
+            margin-left:-1.4rem;
+         }
+         
+		 input:hover{
+
+         border:4px solid black;
+         }
+
+         .con   {
+
+           display:flexbox;
+           width:100%;
+           margin:15px;
+         margin:10px;
+         text-align: center;
+
+
+         }
+
+         .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  width:100%;
+  border-radius:1rem;
+  background-color:orangered;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: :80% ;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+         @media only screen and (max-width: 768px) {
+ select, input, .drpbtn , .dropdown{
+    width:85%;
+  }
+
+  .
+}
+
+
+
+$fuschia: #ff0081;
+$button-bg: $fuschia;
+$button-text-color: #fff;
+$baby-blue: #f8faff;
+
+body{
+  font-size: 16px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  text-align: center;
+  background-color: $baby-blue;
+}
+.bubbly-button{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 2em;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: $button-bg;
+  color: $button-text-color;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+  
+  &:focus {
+    outline: 0;
+  }
+  
+  &:before, &:after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 140%;
+    height: 100%;
+    left: -20%;
+    z-index: -1000;
+    transition: all ease-in-out 0.5s;
+    background-repeat: no-repeat;
+  }
+  
+  &:before{
+    display: none;
+    top: -75%;
+    background-image:  
+      radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle,  transparent 20%, $button-bg 20%, transparent 30%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%), 
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle,  transparent 10%, $button-bg 15%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+  //background-position: 0% 80%, -5% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 85% 30%;
+  }
+  
+  &:after{
+    display: none;
+    bottom: -75%;
+    background-image:  
+    radial-gradient(circle, $button-bg 20%, transparent 20%), 
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle,  transparent 10%, $button-bg 15%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+  //background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+ 
+  &:active{
+    transform: scale(0.9);
+    background-color: darken($button-bg, 5%);
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+  }
+  
+  &.animate{
+    &:before{
+      display: block;
+      animation: topBubbles ease-in-out 0.75s forwards;
+    }
+    &:after{
+      display: block;
+      animation: bottomBubbles ease-in-out 0.75s forwards;
+    }
+  }
+}
+
+
+@keyframes topBubbles {
+  0%{
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+    50% {
+      background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;}
+ 100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+  background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
+  }
+}
+
+@keyframes bottomBubbles {
+  0%{
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+  }
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;}
+ 100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+  background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
+  }
+}
+	
+	
+
+</style>
+<script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script>
+</head>
+<body>
+
+ <form>
+     
+</div>
+<div id="content">
+<div class="container">
+
+<div class="box1">
+<a href="https://yashrajmod.github.io/ygd.html" class="card">
+<img class="lazyload" data-src="https://i.postimg.cc/25FNzwzF/Tata-Play-Logo-Animation.gif" style="height: 120px">
+<div class="card-body">
+<p class="card-text">TATAPLAY</p>
+</div>
+</a>
+</div>
+
+<div class="box1">
+<a href="
+https://approved-from-warrior-proposal.trycloudflare.com/
+" class="card">
+<img class="lazyload" data-src="https://i.postimg.cc/4N7CKZf3/1089233235399409670.gif" style="height: 120px">
+<div class="card-body">
+<p class="card-text">JTV WEB </p>
+</div>
+</a>
+</div>
+
+<div class="box1">
+<a href="go:jioc" class="card">
+<img class="lazyload" data-src="https://i.postimg.cc/NjkbF3SF/jiocinema-top-10-features.jpg" style="height: 120px">
+<div class="card-body">
+<p class="card-text">Jio Cinema WEB </p>
+</div>
+</a>
+</div>
+
+<div class="box1">
+<a href="go:ssh1" class="card">
+<img class="lazyload" data-src="https://i.postimg.cc/VsWsQGm3/star-sports-3.gif" style="height: 120px">
+<div class="card-body">
+<p class="card-text">Star Sports 1 Hindi TATA IP</p>
+</div>
+</a>
+</div>
+
+<div class="box1">
+<a href="go:DCH" class="card">
+<img class="lazyload" data-src="https://i.postimg.cc/BvbNswrN/8101740-cc994.gif" style="height: 120px">
+<div class="card-body">
+<p class="card-text">Disney Channel Airtel IP</p>
+</div>
+</a>
+</div>
+
+
+
+
+
+
+
+
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+              <script>
+$(document).ready(function(){
+  $("input").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $(".box1").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+var animateButton = function(e) {
+
+  e.preventDefault;
+  //reset animation
+  e.target.classList.remove('animate');
+  
+  e.target.classList.add('animate');
+  setTimeout(function(){
+    e.target.classList.remove('animate');
+  },700);
+};
+
+var bubblyButtons = document.getElementsByClassName("bubbly-button");
+
+for (var i = 0; i < bubblyButtons.length; i++) {
+  bubblyButtons[i].addEventListener('click', animateButton, false);
+}
+
+</script>
+
+</body></html>
